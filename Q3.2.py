@@ -114,7 +114,7 @@ def trans(msg):
     trans()
 
 root = Tk()
-frm = ttk.Frame(root, padding=10)
+frm = ttk.Frame(root, padding=20)
 frm.grid()
 msg = tkinter.StringVar()
 msg.set('*8:101*')
