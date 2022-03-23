@@ -1,7 +1,7 @@
 #!/usr/bin/python
 from inspect import _void
 import random
-import tkinter
+import tkinter as tk
 from tkinter import *
 from tkinter import ttk
 from tkinter import StringVar
@@ -116,7 +116,7 @@ def trans(msg):
 root = Tk()
 frm = ttk.Frame(root, padding=20)
 frm.grid()
-msg = tkinter.StringVar()
+msg = tk.StringVar()
 msg.set('*8:101*')
 ttk.Label(frm, text="Hello World!").grid(column=0, row=0)
 E1=ttk.Entry(frm)
